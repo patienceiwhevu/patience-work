@@ -8,6 +8,8 @@ section{
 }
 a{
     text-decoration: none;
+    text-transform: uppercase;
+    color: black;
 }
 a hover{
     text-decoration-line:underline;
