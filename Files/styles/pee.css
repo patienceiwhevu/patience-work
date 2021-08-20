@@ -1,0 +1,28 @@
+table,td,caption,th{
+    border: 3px solid blue;
+}
+table{
+    border-collapse: collapse;
+    font-size: large;
+}
+caption{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+td{
+padding: 1em 1.5em;
+border: spacing 1px ;
+}
+tfoot{
+    text-align: center;
+    text-transform: uppercase;
+}
+tbody tr:first-child:hover{
+    background: -webkit-linear-gradient(-60deg, skyblue 20%, yellow 20%, yellow 10%, skyblue 30%);
+}
+tbody tr:nth-of-type(odd) td:nth-of-type(even){
+   background: -webkit-radial-gradient( magenta 20%,yellow 20%, yellow 10%,skyblue 30% );
+}
+tfoot tr:first-of-type{
+    background:-webkit-linear-gradient(-90deg ,skyblue 30%,yellow 30%,yellow 60%,skyblue 30% ) ;
+}
